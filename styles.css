@@ -2099,13 +2099,24 @@ ul.toc-top {
   text-decoration: none;
 }
 
-/* Target any home section that follows another home section */
-.home-section + .home-section {
-  padding-top: 0;
+/* Adjust spacing above major sections */
+.home-section {
+  padding: 30px 0;  /* Reduce default padding */
 }
 
-/* Adjust section headings globally */
-.section-heading {
+/* Add extra space above section headings */
+.section-heading h1 {
+  margin-top: 40px;  /* Add space above section titles */
+  margin-bottom: 20px;  /* Keep some space below the title */
+}
+
+/* Keep normal spacing for the first section */
+.home-section:first-of-type .section-heading h1 {
+  margin-top: 0;
+}
+
+/* Reduce spacing between items within sections */
+.media.stream-item {
   margin-bottom: 1rem;
 }
 
