@@ -7,7 +7,6 @@
   <meta name="generator" content="Source Themes Academic 3.2.0">
   <meta name="generator" content="Hugo 0.55.0" />
   <meta name="author" content="Yuan Zi">
-
   <meta name="description" content="Yuan Zi&#39;s homepage">
   <link rel="alternate" hreflang="en-us" href="https://sophie-yuanzi.github.io/">
 
@@ -17,17 +16,16 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
-
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Playfair+Display:400,700|Fauna+One">
-
   <link rel="stylesheet" href="/styles.css">
+
+  <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Yuan Zi&#39;s homepage" />
+  <link href="/index.xml" rel="feed" type="application/rss+xml" title="Yuan Zi&#39;s homepage" />
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
-
   <link rel="canonical" href="https://sophie-yuanzi.github.io/">
 
   <meta property="twitter:card" content="summary">
@@ -37,31 +35,171 @@
   <meta property="og:description" content="Yuan Zi&#39;s homepage">
   <meta property="og:image" content="https://sophie-yuanzi.github.io/img/img-3729.jpg">
   <meta property="og:locale" content="en-us">
-  
   <meta property="og:updated_time" content="2023-03-28T00:00:00&#43;00:00">
 
   <title>Yuan Zi&#39;s homepage</title>
 </head>
 
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
-  <!-- Keep your original search results aside -->
   <aside class="search-results" id="search">
-    <!-- Your original search results content -->
+    <div class="container">
+      <section class="search-header">
+        <div class="row no-gutters justify-content-between mb-3">
+          <div class="col-6">
+            <h1>Search</h1>
+          </div>
+          <div class="col-6 col-search-close">
+            <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+          </div>
+        </div>
+
+        <div id="search-box">
+          <input name="q" id="search-query" placeholder="Search..." autocapitalize="off" autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        </div>
+      </section>
+
+      <section class="section-search-results">
+        <div id="search-hits"></div>
+      </section>
+    </div>
   </aside>
 
-  <!-- Keep your original navigation -->
   <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
-    <!-- Your original navigation content -->
+    <div class="container">
+      <a class="navbar-brand" href="/">Yuan Zi&#39;s homepage</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/#about" data-target="#about">
+              <span>Home</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/#workingpapers" data-target="#workingpapers">
+              <span>Working papers</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/#publications" data-target="#publications">
+              <span>Publications</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/#teaching" data-target="#teaching">
+              <span>Teaching</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/#contact" data-target="#contact">
+              <span>Contact</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </nav>
 
-  <!-- Keep your original About/Home section -->
   <span id="homepage" style="display: none"></span>
 
   <section id="about" class="home-section">
-    <!-- Your original About section content -->
+    <div class="container">
+      <div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-address">
+        <div class="col-12 col-lg-4">
+          <div id="profile">
+            <img class="portrait" src="/img/img-3729.jpg" itemprop="image" alt="Avatar">
+
+            <div class="portrait-title">
+              <h2 itemprop="name">Yuan Zi</h2>
+              <h3 itemprop="jobTitle">Assistant Professor of Economics</h3>
+              <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+                <a href="https://www.graduateinstitute.ch/" target="_blank" itemprop="url" rel="noopener">
+                  <span itemprop="name">Geneva Graduate Institute (IHEID)</span>
+                </a>
+              </h3>
+            </div>
+
+            <link itemprop="url" href="https://sophie-yuanzi.github.io/">
+
+            <ul class="network-icon" aria-hidden="true">
+              <li>
+                <a itemprop="sameAs" href="/#contact">
+                  <i class="fas fa-envelope big-icon"></i>
+                </a>
+              </li>
+              <li>
+                <a itemprop="sameAs" href="https://scholar.google.com/citations?user=gB7q2MAAAAAJ&hl=en" target="_blank" rel="noopener">
+                  <i class="ai ai-google-scholar big-icon"></i>
+                </a>
+              </li>
+              <li>
+                <a itemprop="sameAs" href="https://orcid.org/0000-0002-4506-7087" target="_blank" rel="noopener">
+                  <i class="ai ai-orcid big-icon"></i>
+                </a>
+              </li>
+              <li>
+                <a itemprop="sameAs" href="cv/cv_yuan_zi.pdf" target="_blank" rel="noopener">
+                  <i class="ai ai-cv big-icon"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-8" itemprop="description">
+          <br>
+          <br>
+          <font size="3">
+            <p>I am an Assistant Professor in Economics at the <a target="_blank" rel="noopener noreferrer" href="https://www.graduateinstitute.ch/">Graduate Institute of International and Development Studies (IHEID)</a>.</p>
+
+            <p>I am also a research affiliate at <a target="_blank" rel="noopener noreferrer" href="https://www.sv.uio.no/econ/english/">University of Oslo</a> and the <a target="_blank" rel="noopener noreferrer" href="https://cepr.org/">Centre for Economic and Policy Research (CEPR)</a>. My research interests include international trade, economic geography and economic development.</p>
+            <p><br></p>
+
+            <a href="cv/cv_yuan_zi.pdf" download="CV-Zi-2023-12.pdf" class="download-cv-button">
+              <span class="download-icon">&#8595;</span> Download CV
+            </a>
+
+            <style>
+              .download-cv-button {
+                display: inline-flex;
+                align-items: center;
+                padding: 8px 16px;
+                background-color: #2c2c2c;
+                color: white;
+                text-decoration: none;
+                border-radius: 20px;
+                font-family: 'Fauna One', sans-serif;
+                font-size: 13px;
+                transition: background-color 0.3s ease;
+              }
+
+              .download-cv-button:hover {
+                background-color: #3a3a3a;
+              }
+
+              .download-icon {
+                margin-right: 8px;
+                font-size: 16px;
+              }
+            </style>
+          </font>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <!-- Working Papers Section with updated styling -->
   <section id="workingpapers" class="home-section">
     <div class="container">
       <div class="row">
@@ -69,39 +207,28 @@
           <h1>Working Papers</h1>
         </div>
         <div class="col-12 col-lg-8">
-          
-          <!-- WP 1: Sparse Production Networks -->
+          <!-- Working Papers Content -->
           <div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
             <div class="media-body">
-              <h3 class="article-title mb-0 mt-0" itemprop="name" style="font-size: 1.1rem; margin-bottom: 0.2rem !important;">
-                </a>Sparse Production Networks</a>
-              </h3>
-              <div class="stream-meta article-metadata" style="margin-top: 0.2rem;">
+              <h3 class="article-title mb-0 mt-0" itemprop="name">Sparse Production Networks</h3>
+              <div class="stream-meta article-metadata">
                 <div itemprop="author">
-                  <a target="_blank" rel="noopener noreferrer" href="https://www.andrewbbernard.com/">Andrew Bernard</a> and Yuan Zi 
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.andrewbbernard.com/">Andrew Bernard</a> and Yuan Zi
                 </div>
               </div>
-              <!-- Rest of your original content structure -->
+              <div class="btn-links">
+                <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.nber.org/papers/w30496" target="_blank" rel="noopener">NBER WP</a>
+                <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/papers/sparse_production_networks_sept_2022.pdf" target="_blank" rel="noopener">Latest version (Sep 2022)</a>
+              </div>
             </div>
           </div>
 
-          <!-- Continue with other Working Papers using the same pattern -->
-
+          <!-- Additional Working Papers following same structure -->
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Continue with other sections -->
-  
-  <!-- Keep your original scripts -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
-  <!-- Other original scripts -->
-
-</body>
-</html>
-
-<!-- Publications Section -->
   <section id="publications" class="home-section">
     <div class="container">
       <div class="row">
@@ -109,53 +236,349 @@
           <h1>Publications</h1>
         </div>
         <div class="col-12 col-lg-8">
-          
-          <!-- RP 1: Cascading Trade Protection -->
+          <!-- Publications Content -->
           <div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
             <div class="media-body">
-              <h3 class="article-title mb-0 mt-0" itemprop="name" style="font-size: 1.1rem; margin-bottom: 0.2rem !important;">
-                </a>Cascading Trade Protection: Evidence from the US</a>
-              </h3>
-              <div class="stream-meta article-metadata" style="margin-top: 0.2rem;">
+              <h3 class="article-title mb-0 mt-0" itemprop="name">Cascading Trade Protection: Evidence from the US</h3>
+              <div class="stream-meta article-metadata">
                 <div itemprop="author">
-                  <a target="_blank" rel="noopener noreferrer" href="https://sites.google.com/site/akselerbahar/">Aksel Erbahar</a> 
-                  and Yuan Zi </a> <br>
-                  <a target="_blank" ><strong>Journal of International Economics</strong>, 2017</a> 
+                  <a target="_blank" rel="noopener noreferrer" href="https://sites.google.com/site/akselerbahar/">Aksel Erbahar</a> and Yuan Zi<br>
+                  <a target="_blank"><strong>Journal of International Economics</strong>, 2017</a>
                 </div>
               </div>
-              <!-- Rest of your original content structure -->
-            </div>
-          </div>
+              <div class="btn-links">
+                <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.sciencedirect.com/science/article/abs/pii/S0022199617300727" target="_blank" rel="noopener">Published Version</a>
+                <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://voxeu.org/article/costs-cascading-trade-protection" target="_blank" rel="noopener">Vox</a>
+                <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.washingtonpost.com/news/monkey-cage/wp/2018/03/21/does-trump-want-a-trade-war-what-you-need-to-know-about-smoot-hawley-tariffs-and-the-1930s/?utm_term=.9c96042bfd4e" target="_blank" rel="noopener">Washington Post</a>
+                <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.piie.com/blogs/trade-and-investment-policy-watch/trumps-steel-and-aluminum-tariffs-are-cascading-out-control" target="_blank" rel="noopener">
+  PIIE
+</a>
+  </div>
+</div>
 
-          <!-- Continue with other Publications using the same pattern -->
-          
-        </div>
+<div class="ml-3">
+</div>
+</div>
+
+<!-- # 1 RP End -->    
+
+<!-- # 2 RP Start -->
+<div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      </a>Trade Costs, Global Value Chains and Economic Development</a>
+    </h3>
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        Yuan Zi <br>
+        <a target="_blank"><strong>Journal of Economic Geography</strong>, 2020</a>
       </div>
     </div>
-  </section>
 
-  <!-- Chapter in Books Section -->
-  <div id="chapter-in-books" class="section home-section">
-    <!-- Your original content with updated styling -->
+    <div class="btn-links">
+      <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://academic.oup.com/joeg/article/20/1/249/4992290?guestAccessKey=be4e42f9-fb53-480e-967d-4155d38fe141" target="_blank" rel="noopener">
+        Published Version
+      </a>
+    </div>
   </div>
+  <div class="ml-3"></div>
+</div>
+<!-- # 2 RP End -->
 
-  <!-- Teaching Section -->
-  <section id="teaching" class="home-section">
-    <!-- Your original content with updated styling -->
-  </section>
+<!-- # 3 RP Start -->
+<div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      </a>A Cost-Benefit Analysis of R&D and Patents: Firm-level Evidence from China</a>
+    </h3>
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        Jie Zhang,
+        <a target="_blank" rel="noopener noreferrer" href="https://zhiyuanryanchen.github.io/">Zhiyuan Chen</a>
+        and Yuan Zi
+      </div>
+      <br>
+      <a target="_blank"><strong>European Economic Review</strong>, 2021</a>
+    </div>
+    <div class="btn-links">
+      <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.sciencedirect.com/science/article/abs/pii/S0014292120302634" target="_blank" rel="noopener">
+        Published Version
+      </a>
+    </div>
+  </div>
+  <div class="ml-3"></div>
+</div>
+<!-- # 3 RP End -->
 
-  <!-- Contact Section -->
-  <section id="contact" class="home-section">
-    <!-- Your original contact section content -->
-  </section>
+<!-- # 4 RP Start -->
+<div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      </a>Made and Created in China: The Role of Processing Trade</a>
+    </h3>
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        <a target="_blank" rel="noopener noreferrer" href="https://sites.google.com/site/akselerbahar/">Aksel Erbahar</a>,
+        <a target="_blank" rel="noopener noreferrer" href="https://sites.google.com/site/karenheleneulltveitmoe/">Zhiyuan Chen</a>
+        and Yuan Zi
+      </div>
+      <br>
+      <a target="_blank"><strong>Scandinavian Journal of Economics</strong>, 2024</a>
+    </div>
+    <div class="btn-links">
+      <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1111/sjoe.12571" target="_blank" rel="noopener">
+        Published Version
+      </a>
+    </div>
+  </div>
+  <div class="ml-3"></div>
+</div>
+<!-- # 4 RP End -->
 
-  <!-- Footer -->
+</div>
+</div>
+
+</div>
+</section>
+
+<div id="chapter-in-books" class="section home-section">
   <div class="container">
-    <footer class="site-footer">
-      <!-- Your original footer content -->
-    </footer>
+    <div class="row">
+      <div class="col-12 col-lg-4 section-heading">
+        <h1>Chapter in Books</h1>
+      </div>
+      <div class="col-12 col-lg-8">
+        <!-- # 1 CiB Start -->
+        <div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+          <div class="media-body">
+            <h3 class="article-title mb-0 mt-0" itemprop="name">
+              Trade Liberalization and the <i>Hukou</i> System of the People's Republic of China: How Migration Frictions Can Amplify the Unequal Gains from Trade
+            </h3>
+            <div class="stream-meta article-metadata">
+              <div itemprop="author">
+                [in (ed) Marc Bacchetta and Matthias Helble, <strong>Trade Adjustment in Asia: Past Experiences and Lessons Learned</strong>, ADBI-WTO, 2019]
+              </div>
+            </div>
+            <div class="btn-links">
+              <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.adb.org/sites/default/files/publication/559206/adbi-trade-adjustment-asia.pdf#page=94" target="_blank" rel="noopener">Published Version</a>
+            </div>
+          </div>
+        </div>
+        <!-- # 1 CiB End -->
+      </div>
+    </div>
   </div>
+</div>
 
-  <!-- Your original scripts section -->
+</div>
+</div>
+</section>
+
+<section id="teaching" class="home-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-4 section-heading">
+        <h1>Teaching</h1>
+        <p><strong>Office hours</strong>: Wednesdays, 14-16 (course weeks)</p>
+      </div>
+      <div class="col-12 col-lg-8">
+
+        <!-- # 1 Teaching 1 Start -->
+        <div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+          <div class="media-body">
+            <h3 class="article-title mb-0 mt-0" itemprop="name">
+              <a href="/teaching/EI037_Microeconomics/" itemprop="url">EI037: Microeconomics</a>
+            </h3>
+            <div class="stream-meta article-metadata">
+              <div itemprop="author">
+                Fall 2021, 2022, 2023, 2024
+              </div>
+            </div>
+            <div class="btn-links">
+              <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/teaching/EI037_Microeconomics/" target="_blank" rel="noopener">
+                Latest
+              </a>
+            </div>
+          </div>
+          <div class="ml-3"></div>
+        </div>
+        <!-- # 1 Teaching 1 End -->
+
+        <!-- # 1 Teaching 2 Start -->
+        <div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+          <div class="media-body">
+            <h3 class="article-title mb-0 mt-0" itemprop="name">
+              <a href="/teaching/EI064_International_trade_A/" itemprop="url">EI064: International Trade A</a>
+            </h3>
+            <div class="stream-meta article-metadata">
+              <div itemprop="author">
+                Spring 2022, Fall 2024
+              </div>
+            </div>
+            <div class="btn-links">
+              <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="#" target="_blank" rel="noopener">Latest</a>
+            </div>
+          </div>
+          <div class="ml-3"></div>
+        </div>
+        <!-- # 1 Teaching 2 End -->
+
+        <!-- # 1 Teaching 3 Start -->
+        <div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+          <div class="media-body">
+            <h3 class="article-title mb-0 mt-0" itemprop="name">
+              <a href="/teaching/MINT427_The_China_Syndrome/" itemprop="url">MINT427: The China Syndrome: Modern Reforms in China's Economy and Their Global Implications</a>
+            </h3>
+            <div class="stream-meta article-metadata">
+              <div itemprop="author">
+                Spring 2025
+              </div>
+            </div>
+            <div class="btn-links">
+              <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="#" target="_blank" rel="noopener">Latest</a>
+            </div>
+          </div>
+          <div class="ml-3"></div>
+        </div>
+        <!-- # 1 Teaching 3 End -->
+
+        <!-- # 1 Teaching 4 Start -->
+        <div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+          <div class="media-body">
+            <h3 class="article-title mb-0 mt-0" itemprop="name">
+              <a href="/teaching/MINT477_Global_Value_Chains_and_Multinational_Activities/" itemprop="url">MINT477: Global Value Chains and Multinational Activities</a>
+            </h3>
+            <div class="stream-meta article-metadata">
+              <div itemprop="author">
+                Spring 2025
+              </div>
+            </div>
+            <div class="btn-links">
+              <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="#" target="_blank" rel="noopener">Latest</a>
+            </div>
+          </div>
+          <div class="ml-3"></div>
+        </div>
+        <!-- # 1 Teaching 4 End -->
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="home-section">
+  <div class="container">
+    <div class="row contact-widget">
+      <div class="col-12 col-lg-4 section-heading">
+        <h1>Contact</h1>
+      </div>
+      <div class="col-12 col-lg-8">
+        <ul class="fa-ul" itemscope>
+          <li>
+            <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
+            <span id="person-email" itemprop="emailHidden">
+              Firstname_dot_Lastname_at_graduateinstitute_dot_ch
+            </span>
+          </li>
+          <li>
+            <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
+            <span id="person-address" itemprop="address">IHEID Geneva</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <footer class="site-footer">
+    <p class="powered-by">
+      &copy; 2024 &middot;
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+      <span class="float-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fas fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+    </p>
+  </footer>
+</div>
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- External Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+
+<!-- Initialization Script -->
+<script>hljs.initHighlightingOnLoad();</script>
+
+<!-- Configuration Script -->
+<script>
+  const search_index_filename = "/index.json";
+  const i18n = {
+    'placeholder': "Search...",
+    'results': "results found",
+    'no_results': "No results found"
+  };
+  const content_type = {
+    'post': "Posts",
+    'project': "Projects",
+    'publication' : "Publications",
+    'talk' : "Talks"
+  };
+</script>
+
+<!-- Search Template -->
+<script id="search-hit-fuse-template" type="text/x-template">
+  <div class="search-hit" id="summary-{{key}}">
+    <div class="search-hit-content">
+      <div class="search-hit-name">
+        <a href="{{relpermalink}}">{{title}}</a>
+        <div class="article-metadata search-hit-type">{{type}}</div>
+        <p class="search-hit-description">{{snippet}}</p>
+      </div>
+    </div>
+  </div>
+</script>
+
+<!-- Additional Libraries -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+
+<script src="/js/academic.min.d037ee5294b166a79dec317c58aea9cc.js"></script>
+
 </body>
 </html>
